@@ -125,10 +125,6 @@ section>p {
     transition: height 1s ease-out, opacity 1s linear;
 
 
-
-
-
-
 }
 
 .perfectimg:hover {
@@ -138,4 +134,14 @@ section>p {
     height: 400px;
     transition: 1s height linear;
     width: auto;
+}
+
+.dropdown {
+    /*  visibility: hidden1; */
+    opacity: 1;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    /* display: none1;*/
 }
